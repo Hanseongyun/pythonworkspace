@@ -1,0 +1,41 @@
+# git GUI
+sourcetree 
+github desktop
+
+# 확장
+Git Graph
+Git History
+Git pull Requests
+GitHub Repositories
+GitLens
+
+.gitignore (개발 시작부터 무시할 것들 ignore 지정할 것, 일반적으로 자동으로 지정)
+
+-폴더 형상 관리 무시
+
+폴더이름/
+폴더이름
+
+예) app/build (app 안의 build 무시)
+
+
+- 파일 형상 관리 무시
+
+파일명(확장자 같이 포함)
+
+예) AppTest.java
+예) tset/java/aaa/AppTest.java
+
+
+- 특정 확장자 모두 무시
+
+*.확장자
+
+예) *.properties
+
+
+- * 활용한 무시
+
+예) test/java/aaa/AppTest.java
+예) test/java/*/AppTest.java    (java 안에있는 폴더들안의 AppTest.java를 무시)
+예) test/java/**/AppTest.java   (java 폴더 안에있는 모든 폴더경로안의 AppTest.java 무시)
